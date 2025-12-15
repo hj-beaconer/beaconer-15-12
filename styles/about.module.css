@@ -1,0 +1,743 @@
+.top_herosection {
+  margin: 0 8%;
+  margin-top: 40px;
+  font-family: Raleway;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.top_hero_heding {
+  width: 100%;
+  margin-right: 100px;
+}
+
+.top_hero_heding_uper {
+  margin-top: 24px;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 48px;
+}
+
+.top_hero_heding_bottom {
+  font-size: 56px;
+  font-weight: 800;
+  line-height: 67px;
+}
+
+.hero_images {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.image_container_upper,
+.image_container_lower {
+  width: 100%;
+  height: 250px;
+  position: relative;
+}
+
+.upper_image {
+  position: absolute;
+  min-width: fit-content !important;
+  right: 0;
+}
+
+.lower_image {
+  position: absolute;
+  left: 70px;
+  min-width: fit-content !important;
+}
+
+.middle_section {
+  margin: 0 8%;
+  display: flex;
+  gap: 20px;
+  margin-top: 144px;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+
+.doted_image_lft_corner {
+  background-image: url("/Assets/images/dots.png");
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-repeat: no-repeat;
+  z-index: -1;
+  top: -64px;
+  left: -53px;
+}
+
+.middle_left_container {
+  width: 100%;
+  display: flex;
+  gap: 32px;
+
+}
+
+.middle_text_div {
+  display: flex;
+  background-color: #000000;
+  padding: 24px 40px;
+  border-radius: 24px;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  gap: 24px;
+  transition: all ease-in-out 0, 3s;
+}
+
+.middle_text_div:hover {
+  background-color: #BA4814;
+}
+
+.middle_title {
+  width: 100%;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 70px;
+  font-family: "Raleway";
+  min-width: 144px;
+  text-align: center;
+}
+
+.middle_para {
+  width: 100%;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  color: #C5C5C6;
+  /* padding: 50px 0; */
+  text-align: center;
+}
+
+.middle_right_container {
+  width: 40%;
+  padding: 23px 0;
+  padding-left: 68px;
+  min-width: 450px;
+}
+
+.dynamic_data {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  position: relative;
+  gap: 47px;
+}
+
+.right_line {
+  width: 1px;
+  background-color: #f7632a;
+  height: 105%;
+  position: absolute;
+  z-index: -1;
+  left: 9px;
+}
+
+.right_text_container {
+  display: flex;
+  gap: 66px;
+  align-items: center;
+}
+
+.right_dot {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  border: 2.5px solid #ec5853;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.right_dot_under {
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  background-color: #ec5853;
+}
+
+
+
+.right_text {
+  display: flex;
+  flex-direction: column;
+  /* gap: 10px; */
+}
+
+.right_heading {
+  width: 100%;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 43px;
+}
+
+.right_para {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.text_heading_center {
+  margin-top: 144px;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+}
+
+.year_main_section {
+  overflow: hidden;
+  margin-top: 100px;
+}
+
+.year_line {
+  width: 120%;
+  background-color: #f7632a;
+  height: 1px;
+  position: absolute;
+  top: 50%;
+  left: -10%;
+  z-index: 0;
+}
+
+.year_data_main {
+  margin: 0 8%;
+  position: relative;
+}
+
+.year_data_main_div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px 0;
+  gap: 15px;
+}
+
+.year_data_collum {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 130px;
+}
+
+.year_data_collum:nth-child(even) {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+
+  .year_data_title {
+    align-items: flex-end;
+    padding-top: 0px;
+    padding-bottom: 50px;
+  }
+
+  .year_data_para {
+    align-items: flex-end;
+    margin-top: 0;
+    margin-bottom: 50px;
+  }
+
+  .year_dot::after {
+    top: 0%;
+    transform: translateY(-100%);
+  }
+}
+
+.year_dot {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  border: 2.5px solid #ec5853;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 100;
+}
+
+.year_dot::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 1px;
+  height: 50px;
+  background-color: #DCDCDC;
+  top: 100%;
+  z-index: 0;
+}
+
+.year_dot_under {
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  background-color: #ec5853;
+}
+
+.para_line {
+  width: 1.5px;
+  background-color: #dcdcdc;
+  height: 49px;
+  left: 50%;
+  top: 50%;
+  display: none;
+}
+
+.year_data_title {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38px;
+  height: 150px;
+  display: flex;
+  align-items: flex-start;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.year_data_para {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  height: 100px;
+  display: flex;
+  /* align-items: flex-end; */
+  text-align: center;
+  margin-top: 50px;
+}
+
+.divforExperienceunparalleled {
+  margin-top: 9rem !important;
+  position: relative;
+  z-index: 999;
+
+}
+
+.circle_MainDivContanir {
+  margin-bottom: -130px;
+  width: 90%;
+  margin-left: 8%;
+}
+
+.main_dv_for_experience {
+  padding-top: 72px;
+  padding-bottom: 72px;
+}
+
+.button_text_div {
+  margin-top: 24px;
+}
+
+.circle_design {
+  position: absolute;
+  width: 500px;
+  height: 300px;
+  bottom: 0;
+  right: 0px;
+  object-fit: contain;
+}
+
+@media (max-width: 1400px) {
+  .top_herosection {
+    margin-top: 0px;
+  }
+
+  .top_hero_heding {
+    margin-right: 20px;
+  }
+
+  .lower_image {
+    left: 0;
+  }
+
+  .middle_title {
+    font-size: 36px;
+  }
+
+  .middle_para {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 1200px) {
+
+  .text_heading_center {
+    margin-top: 100px;
+    font-size: 38px;
+  }
+
+  .year_main_section {
+    margin-top: 50px;
+  }
+
+  .middle_section {
+    flex-direction: column;
+    margin-top: 100px;
+  }
+
+  .top_hero_heding_uper {
+    font-size: 36px;
+    line-height: 1.5;
+  }
+
+  .top_hero_heding_bottom {
+    font-size: 43px;
+    line-height: 1.3;
+  }
+
+  .right_dot,
+  .right_line {
+    display: none;
+  }
+
+  .right_text {
+    align-items: center;
+    gap: 8px;
+  }
+
+  .dynamic_data {
+    align-items: center;
+  }
+}
+
+@media (max-width: 992px) {
+  .divforExperienceunparalleled {
+    margin-top: 5rem !important;
+  }
+
+  .text_heading_center {
+    margin-top: 70px;
+    font-size: 32px;
+  }
+
+  .year_main_section {
+    margin-top: 30px;
+  }
+
+  .middle_text_div {
+    flex-direction: column;
+    gap: 23px;
+    align-items: center;
+  }
+
+  .middle_left_container {
+    padding: 60px 40px;
+  }
+
+  .middle_right_container {
+    padding: 10px 0px;
+    padding-left: 10px;
+  }
+
+  .top_hero_heding_uper {
+    margin-top: 28px;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 1.2;
+    font-family: "Raleway";
+  }
+
+  .top_hero_heding_bottom {
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 1.2;
+    margin-top: 20px;
+  }
+
+  .top_herosection {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .upper_image,
+  .lower_image {
+    min-width: -webkit-fill-available !important;
+  }
+
+  .hero_images {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .year_data_title {
+    font-size: 24px;
+    line-height: 1.2;
+  }
+
+  .year_data_para {
+    font-size: 12px;
+    line-height: 1.2;
+  }
+
+  .year_data_collum:nth-child(even) {
+    .year_data_title {
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 1.2;
+      font-family: "Raleway";
+    }
+  }
+
+  .para_line {
+    height: 65px;
+  }
+
+  .top_hero_heding {
+    text-align: center !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .main_dv_for_experience {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .text_heading_center {
+    margin-top: 72px;
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .year_main_section {
+    margin-top: 30px;
+  }
+
+  .year_data_title {
+    font-size: 24px;
+    line-height: 1.2;
+  }
+
+  .year_data_para {
+    font-size: 12px;
+    line-height: 1.2;
+  }
+
+  .year_data_collum:nth-child(even) {
+    .year_data_title {
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 1.2;
+      font-family: "Raleway";
+    }
+  }
+
+  .middle_left_container {
+    padding: 30px;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .middle_right_container {
+    min-width: 310px;
+  }
+
+  .middle_section {
+    margin: 0 5%;
+    margin-top: 80px;
+  }
+
+  .middle_title {
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 1.2;
+    font-family: "Raleway";
+  }
+
+  .middle_para {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.4;
+    font-family: "Raleway";
+    /* padding: 50px 0; */
+  }
+
+  .middle_text_div {
+    justify-content: start;
+    gap: 15px;
+  }
+
+  .img_svg {
+    width: 50px;
+  }
+
+  .top_hero_heding_uper {
+    font-size: 28px;
+  }
+
+  .hero_images {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+  }
+
+  .image_container_upper,
+  .image_container_lower {
+    width: 100%;
+    height: 100%;
+  }
+
+  .upper_image {
+    position: static;
+    width: 100%;
+    right: 0;
+  }
+
+  .lower_image {
+    position: static;
+    width: 100%;
+    left: 70px;
+  }
+
+  .circle_design {
+    position: absolute;
+    width: 120px;
+    height: 128px;
+    /* bottom: -78px; */
+    right: 0;
+    object-fit: contain;
+  }
+}
+
+@media (max-width: 590px) {
+  .para_line {
+    height: 50px;
+  }
+
+}
+
+@media (max-width: 500px) {
+  .divforExperienceunparalleled {
+    width: 100% !important;
+    margin-left: 0px !important;
+    margin-top: 60px !important;
+    margin-bottom: 200px;
+  }
+
+  .experient_text,
+  .expert_team {
+    font-size: 22px !important;
+    line-height: 25px !important;
+  }
+
+  .top_hero_heding_uper {
+    font-size: 14px;
+  }
+}
+
+
+@media(max-width : 768px) {
+
+  .year_data_main {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .year_dot::after {
+    display: none;
+  }
+
+  .year_line {
+    width: 1px;
+    background-color: #f7632a;
+    height: 98%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+  }
+
+  .year_data_collum {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    max-width: 100%;
+
+    .year_data_title {
+      width: 83px;
+      /* margin-right: 24px; */
+      text-align: end;
+      padding: 0;
+    }
+
+    .year_dot {
+      position: relative;
+    }
+
+    .year_data_para {
+      width: 83px;
+      text-align: end;
+      /* margin-left: 49px; */
+      position: relative;
+      align-items: center;
+      margin: 0;
+    }
+  }
+
+  .year_data_collum:nth-child(even) {
+    flex-direction: row-reverse;
+
+    .year_data_title {
+      text-align: start;
+      margin-right: 0;
+      /* margin-left: 24px; */
+      margin-top: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+    }
+
+    .year_data_para {
+      text-align: start;
+      align-items: center;
+      margin: 0;
+      margin-left: 0px;
+      /* margin-right: 49px; */
+    }
+
+    .year_dot::before {
+      left: -250%;
+      top: 50%;
+    }
+  }
+
+  .year_data_main_div {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 160px;
+
+  }
+
+  .para_line {
+    display: none;
+  }
+
+  .year_data_title {
+    margin: 0;
+    align-items: center;
+  }
+
+  .year_dot::before {
+    content: "";
+    display: inline-block;
+    width: 49px;
+    position: absolute;
+    background-color: #dcdcdc;
+    height: 1px;
+    left: 50%;
+    top: 50%;
+    z-index: -1;
+  }
+
+}

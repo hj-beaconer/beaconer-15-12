@@ -1,0 +1,358 @@
+.center_div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    justify-content: center;
+    margin-top: -60px;
+    width: 100%;
+}
+
+.solution_heading_top_container {
+    margin-top: 144px;
+    text-align: center;
+    width: 60%;
+}
+
+
+.solution_heading_top_first {
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 500;
+    font-family: Raleway;
+}
+
+.solution_heading_top_second {
+    font-size: 56px;
+    line-height: 70px;
+    font-weight: 800;
+    font-family: Raleway;
+}
+
+.solution_heading_top_para {
+    margin: 24px 0;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+.slider_container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.slider_images {
+    height: 100%;
+    width: 100%;
+}
+
+.image_heading {
+    font-size: 40px;
+    line-height: 60px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.main_for_Dark_Web_twoA {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    position: relative;
+    padding: 0 8%;
+    padding-top: 165px;
+    width: 100%;
+}
+
+.main_image_container {
+    display: flex;
+    align-items: center;
+    /* place-content: center; */
+    position: relative;
+    margin: 5% 0;
+    width: 50%;
+}
+
+.main_div_for_crosh_harf_left {
+    width: 110%;
+    height: 125%;
+    border-radius: 20px;
+    position: absolute;
+    left: -5%;
+    background: linear-gradient(115deg, #ffffff 54%, #000000 75%);
+    backdrop-filter: blur(54px);
+    opacity: 4%;
+    z-index: 5;
+}
+
+.image_div_container {
+    width: 100%;
+    position: relative;
+}
+
+.main_div_for_crosh_harf_left::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    padding: 1px;
+    border-radius: 20px;
+    background: linear-gradient(-90deg, #FFFFFF 54%, #000000 75%);
+    -webkit-mask:
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+    mask:
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: destination-out;
+    mask-composite: exclude;
+    pointer-events: none;
+}
+
+
+.main_for_Dark_Web_twoA:nth-child(odd) {
+    flex-direction: row-reverse;
+
+    .main_image_container {
+        flex-direction: row-reverse;
+    }
+
+    /* .main_div_for_crosh_harf_left {
+        left: 0%;
+        transform: translate(100%, 0);
+        rotate: 0deg;
+    } */
+}
+
+.main_div_for_videoPlay_two_img_left {
+    object-fit: contain;
+    /* height: 100%; */
+    width: 100%;
+}
+
+.main_for_Cutting_div {
+    max-width: 40%;
+    position: relative;
+}
+
+.main_title_external {
+    font-family: "Raleway";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    color: var(--white);
+}
+
+.main_description_data,
+.main_description_div {
+    margin-top: 24px !important;
+    font-size: 20px !important;
+}
+
+.main_div_title_description {
+    margin-top: 144px;
+}
+
+.div_for_experience_unpralleled {
+    position: relative;
+    margin: 0 8%;
+    border-radius: 32px;
+    border: 1px solid #f76324;
+    padding: 72px;
+    overflow: hidden;
+    z-index: 999;
+}
+
+.button_text_div {
+    margin-top: 42px;
+}
+
+.circle_design {
+    position: absolute;
+    width: 296px;
+    height: 296px;
+    bottom: -90px;
+    right: -90px;
+    padding: 0;
+    box-sizing: border-box;
+    border: solid 50px #F76324;
+    border-top-left-radius: 20rem;
+    border-bottom-left-radius: 20em;
+    border-top-right-radius: 20rem;
+    border-bottom-right-radius: 20em;
+    transform: rotate(90deg);
+}
+
+
+
+@media(max-width: 1400px) {
+
+    .solution_heading_top_container {
+        width: 75%;
+    }
+}
+
+
+@media(max-width: 1200px) {
+    .div_for_experience_unpralleled {
+        padding: 30px;
+    }
+
+
+    .main_for_Cutting_div {
+        padding: 0 0;
+        max-width: 100%;
+        margin-top: 20px;
+        max-width: 601px;
+        text-align: left;
+    }
+
+    .solution_heading_top_container {
+        width: 80%;
+    }
+
+    .solution_heading_top_first {
+        font-size: 38px;
+    }
+
+    .solution_heading_top_second {
+        font-size: 42px;
+        line-height: 1.5;
+    }
+
+
+    .main_for_Dark_Web_twoA {
+        display: flex;
+        gap: 20px;
+        flex-direction: column-reverse;
+        width: 100%;
+        margin-left: 0px;
+        padding-top: 140px;
+    }
+
+    .main_for_Dark_Web_twoA:nth-child(odd) {
+        flex-direction: column-reverse;
+    }
+
+    .main_div_for_videoPlay_two_img_left {
+        height: auto;
+        width: 100%;
+    }
+
+    /* .main_div_for_crosh_harf_left {} */
+
+    .main_description_data {
+        margin-top: 8px !important;
+        margin-bottom: 50px !important;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .main_image_container {
+        width: 100%;
+        display: grid;
+        align-items: center;
+        place-content: center;
+    }
+
+    .circle_design {
+        width: 196px;
+        height: 196px;
+        border: solid 30px #F76324;
+    }
+}
+
+@media(max-width: 992px) {
+    .main_image_container {
+        margin-top: 0;
+        margin-bottom: 8%;
+    }
+
+    .main_for_Dark_Web_twoA {
+        padding-top: 120px;
+    }
+
+    /* .main_div_for_crosh_harf_left {
+        display: block;
+        position: absolute;
+        width: 360px;
+    } */
+}
+
+@media(max-width: 768px) {
+    .button_text_div {
+        margin-top: 30px !important;
+    }
+
+
+    .div_for_experience_unpralleled {
+        margin: 0 5%;
+        margin-top: 60px !important;
+        padding: 20px;
+    }
+
+
+    .main_div_title_description {
+        margin-top: 10px !important;
+    }
+
+    .main_description_div {
+        margin-top: 10px !important;
+        margin-bottom: 0px !important;
+    }
+
+    .main_title_external {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+
+    .main_for_Cutting_div {
+        margin-top: 10px !important;
+    }
+
+    .solution_heading_top_container {
+        width: 90%;
+        margin-top: 44px;
+        margin-bottom: 32px;
+    }
+
+    .solution_heading_top_first {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .solution_heading_top_second {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .solution_heading_top_para {
+        font-size: 14px;
+        line-height: 20px;
+        margin: 16px 0;
+    }
+
+    .image_heading {
+        font-size: 18px;
+        line-height: 28px;
+        margin-bottom: 5px;
+    }
+
+    .main_for_Dark_Web_twoA {
+        padding-top: 72px !important;
+        gap: 10px !important;
+    }
+
+}
+
+@media(max-width: 500px) {
+    /* .main_div_for_crosh_harf_left {
+        width: 200px;
+    } */
+
+    .main_div_title_description {
+        margin-bottom: 72px;
+    }
+
+}

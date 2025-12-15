@@ -1,0 +1,596 @@
+.main_for_Dark_Web_two {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 8%;
+  gap: 32px;
+  margin-top: 90px;
+  position: relative;
+}
+
+.main_for_Dark_Web_twoA,
+.main_for_Dark_Web_twoB {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  position: relative;
+  padding: 0 8%;
+  margin-top: 165px;
+  width: 100%;
+}
+
+.main_image_container {
+  display: flex;
+  align-items: center;
+  /* place-content: center; */
+  position: relative;
+  margin: 5% 0;
+  width: 50%;
+}
+
+.main_for_Dark_Web_twoA:nth-child(even) {
+  flex-direction: row-reverse;
+
+  .main_image_container {
+    flex-direction: row-reverse;
+  }
+
+  /* .main_div_for_crosh_harf_left {
+    left: 125%;
+    transform: translate(100%, 0);
+    rotate: 180deg;
+  } */
+}
+
+.main_title_external {
+  font-family: "Raleway";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  color: white;
+}
+
+.main_title_external11 {
+  font-family: "Raleway";
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: white;
+}
+
+.main_description_data,
+.main_description_div {
+  margin-top: 24px;
+  font-size: 20px !important;
+}
+
+.main_div_choresh {
+  width: 398px;
+  height: 398px;
+  border-radius: 27px;
+  background: linear-gradient(0deg,
+      rgba(246, 99, 43, 0.08),
+      rgba(246, 99, 43, 0.08)),
+    linear-gradient(0deg, #ffffff, #ffffff);
+  transform: rotate(45deg);
+  position: absolute;
+  z-index: -1;
+  left: 16px;
+  top: 10px;
+}
+
+.main_div_title_description {
+  margin-top: 144px;
+}
+
+.button_text_div {
+  margin-top: 42px;
+}
+
+.circle_design {
+  position: absolute;
+  width: 296px;
+  height: 296px;
+  bottom: -90px;
+  right: -90px;
+  padding: 0;
+  box-sizing: border-box;
+  border: solid 50px #F76324;
+  border-top-left-radius: 20rem;
+  border-bottom-left-radius: 20em;
+  border-top-right-radius: 20rem;
+  border-bottom-right-radius: 20em;
+  transform: rotate(90deg);
+}
+
+.main_div_for_title {
+  margin-top: 124px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.main_div_for_hading {
+  font-family: "Raleway";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  color: white;
+  display: flex;
+  text-align: center;
+}
+
+.main_div_for_sub_hading {
+  font-family: "Raleway";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  color: #f76324;
+  display: flex;
+}
+
+.back_image {
+  background-image: url(../Assets/images/back_img.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+}
+
+.main_div_for_videoPlay_Frist {
+  min-width: 900px;
+  margin-top: 48px;
+  overflow: hidden;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 10;
+  position: relative;
+  max-width: 0 !important;
+}
+
+.main_div_for_videoPlay_two {
+  width: 599px;
+  height: 476px;
+}
+
+.main_div_for_videoPlay_Onea {
+  width: 40%;
+}
+
+.main_div_for_videoPlay_two_img {
+  width: 30%;
+  height: 100%;
+  position: absolute;
+  z-index: 999;
+  top: 59px;
+  right: 160px;
+}
+
+.main_div_for_videoPlay_two_img_left {
+  width: 30%;
+  height: 100%;
+  position: absolute;
+  z-index: 999;
+  top: 59px;
+  left: 160px;
+}
+
+.main_nextgen {
+  font-family: "Raleway";
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  color: var(--dark);
+}
+
+.main_title_red {
+  font-family: "Raleway";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  color: #f76324;
+}
+
+.main_for_Cutting_div {
+  max-width: 40%;
+}
+
+.main_for_Cutting_div_top {
+  max-width: 40%;
+  text-align: left;
+}
+
+.main_div_for_crosh_harf {
+  width: 283px;
+  height: 500px;
+  border-radius: 12px 0 0 12px;
+  background: #ffd7c6;
+  position: absolute;
+  right: 0;
+  z-index: -1;
+}
+
+.main_div_for_crosh_harf_left {
+  width: 110%;
+  height: 125%;
+  border-radius: 20px;
+  position: absolute;
+  left: -5%;
+  background: linear-gradient(115deg, #ffffff 54%, #000000 75%);
+  backdrop-filter: blur(54px);
+  opacity: 4%;
+  z-index: 5;
+}
+
+.main_div_for_crosh_harf_left::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  padding: 1px;
+  border-radius: 20px;
+  background: linear-gradient(-90deg, #FFFFFF 54%, #000000 75%);
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: destination-out;
+  mask-composite: exclude;
+  pointer-events: none;
+}
+
+.main_div_darkweb {
+  position: relative;
+}
+
+.div_for_experience_unpralleled {
+  position: relative;
+  margin: 0 8%;
+  border-radius: 32px;
+  border: 1px solid #f76324;
+  padding: 72px;
+  overflow: hidden;
+  z-index: 999;
+}
+
+@media (max-width: 1200px) {
+  .circle_design {
+    width: 196px;
+    height: 196px;
+    border: solid 30px #F76324;
+  }
+
+  .main_image_container {
+    width: 100%;
+    display: grid;
+    place-content: center;
+    align-items: center;
+  }
+
+  .main_description_data {
+    margin-top: 10px !important;
+    margin-bottom: 50px !important;
+  }
+
+  .main_div_for_cutting_edge {
+    display: block !important;
+  }
+
+  .main_div_for_crosh_harf_left {
+    display: none;
+  }
+
+  .img-fluid {
+    width: 100%;
+  }
+
+  .main_div_for_crosh_harf {
+    display: none;
+  }
+
+  /* .main_div_for_crosh_harf_left {
+    position: absolute;
+    width: 360px;
+  } */
+
+  .main_for_Dark_Web_twoA {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 0px;
+    margin-top: 120px;
+    width: 100%;
+  }
+
+
+  .main_for_Dark_Web_twoA:nth-child(even) {
+    flex-direction: column-reverse;
+  }
+
+  .main_for_Dark_Web_twoB {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 0px;
+    margin-top: 120px;
+  }
+
+  .main_for_Cutting_div {
+    padding: 0 0;
+    max-width: 100%;
+    margin-top: 20px;
+    /* max-width: 601px; */
+    /* text-align: left; */
+    margin-bottom: 32px;
+  }
+
+  .main_for_Cutting_div_top {
+    padding: 0 0;
+    max-width: 100%;
+    margin-top: 20px;
+    /* max-width: 601px; */
+    /* text-align: left; */
+    margin-bottom: 32px;
+    text-align: center;
+  }
+
+
+  .main_div_for_videoPlay_two,
+  .main_div_for_videoPlay_two_middle {
+    left: 8%;
+    width: 60%;
+  }
+
+  .main_div_for_videoPlay_two_img {
+    width: 60%;
+    height: auto;
+    top: 46%;
+    left: 30%;
+  }
+
+  .main_div_for_videoPlay_two_img_left {
+    width: 60%;
+    left: 30%;
+    height: auto;
+  }
+
+
+
+  .div_for_image_of_cutting {
+    width: 100%;
+  }
+
+  .div_for_experience_unpralleled {
+    padding: 30px;
+  }
+
+  .main_div_for_videoPlay_Frist {
+    min-width: auto;
+  }
+
+  .back_image {
+    display: none;
+  }
+
+  .main_for_Dark_Web_two {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    text-align: left;
+  }
+}
+
+@media (max-width: 992px) {
+  .main_image_container {
+    width: 100%;
+    display: grid;
+    align-items: center;
+    place-content: center;
+    margin-top: 0;
+    margin-bottom: 8%;
+  }
+
+  .main_div_for_crosh_harf_left {
+    display: block;
+  }
+
+  .main_div_for_videoPlay_two_img {
+    top: 52%;
+  }
+
+
+
+  .main_for_Dark_Web_twoA,
+  .main_for_Dark_Web_twoB {
+    margin-top: 90px;
+    gap: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .main_for_Dark_Web_two {
+    margin-top: 0;
+
+  }
+
+  .circle_design {
+    width: 196px;
+    height: 196px;
+    border: solid 30px #F76324;
+  }
+
+  .div_for_square_box {
+    display: none;
+  }
+
+  .main_div_for_videoPlay_two_img {
+    top: -25px;
+    width: 60%;
+    left: 8%;
+    bottom: 5%;
+    z-index: -1;
+  }
+
+  .ButtonCoutingEde {
+    margin-top: 20px !important;
+  }
+
+  .main_div_for_videoPlay_two {
+    width: 100%;
+    height: auto;
+  }
+
+  .main_div_for_videoPlay_two_middle {
+    left: 8%;
+    width: 60%;
+    top: -25px;
+  }
+
+  .main_for_Cutting_div {
+    margin-top: 0px;
+  }
+
+  .main_for_Cutting_div_top {
+    margin-top: 0px;
+  }
+
+  .main_for_Dark_Web_twoA {
+    margin-top: 72px;
+    display: flex;
+  }
+
+  .main_for_Dark_Web_twoB {
+    display: flex;
+    margin-top: 50px;
+    gap: 0px;
+  }
+
+  .main_div_for_videoPlay_two_img_left {
+    top: 0px !important;
+    left: 8% !important;
+  }
+
+  .main_div_for_hading {
+    display: block;
+    font-size: 22px;
+    line-height: 30px;
+    text-align: left;
+  }
+
+  .main_div_for_sub_hading {
+    display: block;
+    text-align: left;
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .main_div_for_videoPlay_Frist {
+    padding: 0 8%;
+    margin-top: 32px;
+  }
+
+  .main_container_cutting_edge {
+    margin-top: 20px !important;
+    padding: 0 20px !important;
+  }
+
+
+  .main_description_div,
+  .description_class {
+    margin-top: 10px !important;
+    margin-bottom: 0px !important;
+  }
+
+  .class_for_heading_cutting_edge {
+    margin-top: 10px;
+    font-size: 22px !important;
+    line-height: 30px !important;
+  }
+
+  .main_title_red {
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .main_nextgen {
+    font-size: 18px;
+  }
+
+  .main_title_external {
+    font-size: 24px;
+    line-height: 32px;
+    margin-top: 10px;
+  }
+
+  .main_title_external11 {
+    font-size: 22px;
+    line-height: 30px;
+    margin-top: 10px;
+  }
+
+  .main_div_for_title {
+    margin-top: 10px;
+    display: block;
+    margin: 0 30px;
+  }
+
+  .experient_text,
+  .expert_team {
+    font-size: 22px !important;
+    line-height: 25px !important;
+  }
+
+  .main_div_darkweb {
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+  }
+
+  .button_text_div {
+    margin-top: 30px;
+  }
+
+  .div_for_experience_unpralleled {
+    margin: 0 5%;
+    margin-top: 72px !important;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .main_div_title_description {
+    margin-bottom: 72px;
+  }
+
+  .main_div_for_cutting_edge {
+    padding: 0 1%;
+  }
+}
+
+@media (max-width: 500px) {
+  /* .main_div_for_crosh_harf_left {
+    width: 200px;
+  } */
+
+  .main_div_title_description {
+    margin-top: 60px;
+  }
+
+  .back_image {
+    display: none;
+  }
+
+  .Main_div_for_Spacing {
+    margin-top: -40px;
+  }
+}

@@ -1,0 +1,301 @@
+.main_container_div_for_Cybersecurity {
+    margin: 0 4%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.class_for_heading_post_merger {
+    font-weight: 500;
+    font-family: "Raleway";
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.class_for_heading_Cybersecurity {
+    font-weight: 800;
+    font-family: "Raleway";
+    font-size: 56px;
+    line-height: 70px;
+}
+
+.main_description_data {
+    margin-top: 24px !important;
+    font-weight: 400;
+    font-size: 20px !important;
+    line-height: 30px;
+}
+
+.main_div_for_content {
+    width: 40%;
+}
+
+.div_for_backgroung_color {
+    background-color: #FFF7F4;
+    height: 100%;
+    padding: 80px 0;
+    margin-top: 80px;
+}
+
+.main_div_for_key_features {
+    margin: 0 4%;
+}
+
+.main_div_for_key_features_detail {
+    margin-top: 74px;
+}
+
+.span_for_key {
+    font-family: "Raleway";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+    color: #000000;
+}
+
+.Styles_for_keyfeatures_underline {
+    position: relative;
+    display: inline-block;
+}
+
+.Styles_for_keyfeatures_underline::after {
+    content: '';
+    display: block;
+    width: 120px;
+    height: 6px;
+    border-radius: 10px;
+    background-color: black;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+}
+
+.span_for_featutes {
+    font-family: "Raleway";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+    background: linear-gradient(90deg, #EA5656, #F76324);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.div_for_company_detail {
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Raleway';
+    line-height: 24px;
+    margin-top: 16px;
+}
+
+.main_div_for_card {
+    /* display: grid; */
+    /* grid-template-columns: repeat(3, 1fr); */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 24px;
+    margin: 60px 0;
+}
+
+.div_for_card {
+    background-color: #00000008;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    padding: 24px;
+    width: 100%;
+    flex: 1 1 calc(31.33%);
+}
+
+.title {
+    font-size: 28px;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 8px;
+}
+
+.description {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000CC;
+    line-height: 1.5;
+}
+
+.iconContainer {
+    margin-bottom: 32px;
+}
+
+.heading_for_key_features {
+    margin-bottom: 6px;
+}
+
+.divforExperienceunparalleled {
+    margin-top: 6rem !important;
+    z-index: 999;
+    position: relative;
+}
+
+.circle_MainDivContanir {
+    margin-bottom: -130px;
+    width: 90%;
+    margin-left: 8%;
+}
+
+
+.main_dv_for_experience {
+    padding-top: 72px;
+    padding-bottom: 72px;
+}
+
+.button_text_div {
+    margin-top: 42px;
+}
+
+.circle_design {
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    bottom: 0;
+    right: 0px;
+    object-fit: contain;
+}
+
+
+@media (max-width: 1200px) {
+    .main_container_div_for_Cybersecurity {
+        flex-direction: column-reverse;
+    }
+
+    .circle_design {
+        display: none;
+    }
+
+    .main_div_for_content {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .Styles_for_cybersecurity_image {
+        width: 70%;
+        height: auto;
+    }
+
+    .main_dv_for_experience {
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .main_container_div_for_Cybersecurity {
+        flex-direction: column-reverse;
+    }
+
+    .main_dv_for_experience {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .main_div_for_content {
+        width: 100%;
+    }
+
+    .main_description_data {
+        margin-top: 10px !important;
+        margin-bottom: 24px !important;
+    }
+
+    .Styles_for_cybersecurity_image {
+        width: 100%;
+        height: auto;
+    }
+
+    .circle_MainDivContanir {
+        margin-bottom: -30px;
+    }
+
+
+    .class_for_heading_post_merger {
+        font-size: 18px;
+        line-height: 16px;
+    }
+
+    .class_for_heading_Cybersecurity {
+        font-size: 22px;
+    }
+
+    .title {
+        font-size: 18px;
+    }
+
+    .main_div_for_card {
+        gap: 20px;
+    }
+
+    .span_for_key,
+    .span_for_featutes {
+        font-size: 22px;
+    }
+
+    .Styles_for_keyfeatures_underline::after {
+        width: 90px;
+        height: 5px;
+        bottom: 4px;
+    }
+
+    .button_text_div {
+        margin-top: 30px;
+    }
+
+    .main_div_for_key_features_detail {
+        margin-top: 40px;
+    }
+
+    .heading_for_key_features {
+        margin-bottom: -8px;
+    }
+
+    .main_div_for_card {
+        margin-top: 40px;
+    }
+
+    .iconContainer {
+        margin-bottom: 16px;
+    }
+
+    .description {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 576px) {
+    .div_for_card {
+        flex: 1 1 calc(100% - 20px);
+    }
+
+    .divforExperienceunparalleled {
+        width: 100% !important;
+        margin-left: 0px !important;
+        margin-top: 60px !important;
+    }
+
+    .experient_text,
+    .expert_team {
+        font-size: 22px !important;
+        line-height: 25px !important;
+    }
+
+    .class_for_heading_Cybersecurity {
+        font-size: 28px;
+    }
+
+    .class_for_heading_post_merger {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 500px) {
+    .div_for_backgroung_color {
+        margin-top: 50px;
+    }
+}

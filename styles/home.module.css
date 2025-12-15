@@ -1,0 +1,880 @@
+.main_div {
+  display: flex;
+  flex-direction: column;
+}
+
+.main_div_for_Home_page {
+  margin: 0 0;
+  position: relative;
+  margin-top: 220px;
+  margin-bottom: -130px;
+}
+
+.sub_div {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.started_button {
+  max-width: fit-content;
+  /* margin-top: 24px; */
+  margin-bottom: 72px;
+}
+
+
+
+.main_div_rapid_assessment {
+  font-family: "Raleway";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  color: #f76324;
+}
+
+.main_for_empower {
+  font-family: "Raleway";
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  text-align: left;
+  color: var(--white);
+}
+
+.main_description_data {
+  margin-top: 24px;
+  font-size: 20px !important;
+}
+
+.main_div_for_Right_button {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: #f76324;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 24px;
+  padding: 0 !important;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.main_div_for_Right_button:hover {
+  background-color: #ff7a42 !important;
+  cursor: pointer;
+}
+
+.main_for_real_timeComponent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 120px;
+  margin-left: 8%;
+  margin-right: 8%;
+  gap: 48px;
+}
+
+.main_div_for_chooes_us {
+  margin: 0 8%;
+}
+
+.main_for_real_timeComponent:nth-child(even) {
+  flex-direction: row-reverse;
+  align-items: end;
+
+  .main_div_for_videoPlay_one {
+    margin-bottom: 0;
+  }
+}
+
+.main_for_real_timeComponent:last-child {
+  margin-bottom: 72px !important;
+}
+
+.main_for_real_timeComponent_first1 {
+  margin: 0 8%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+.main_for_relatedTime_div {
+  max-width: 606px;
+}
+
+.main_nextgen {
+  font-family: "Raleway";
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 36px;
+  color: #E8E8E8;
+  display: flex;
+  justify-content: start;
+  margin-bottom: 5px;
+}
+
+.main_nextgen_sub {
+  font-family: "Raleway";
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  color: #E8E8E8;
+  display: flex;
+  justify-content: start;
+  margin-bottom: 5px;
+}
+
+.main_nextgen_heading {
+  font-family: "Raleway";
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  color: #E8E8E8;
+  display: flex;
+  justify-content: center;
+}
+
+.main_title_external {
+  font-family: "Raleway";
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 1.2;
+  color: var(--white);
+  width: fit-content;
+}
+
+.main_title_external_main {
+  font-family: "Raleway";
+  font-size: 56px;
+  font-weight: 800;
+  line-height: 70px;
+  color: var(--white);
+  width: max-content;
+}
+
+
+.main_title_red {
+  font-family: "Raleway";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  color: #f76324;
+}
+
+.learn_more_button {
+  font-family: "Raleway";
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  color: #f76324;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 2px;
+  margin-top: 24px;
+  transition: all 0.5s ease;
+}
+
+.learn_more_button:hover {
+  text-shadow: 2px 2px #d9d9d9;
+}
+
+.main_div_for_videoPlay_one {
+  width: 50%;
+  max-height: 390px;
+  margin-bottom: -100px;
+
+}
+
+.logo_carasoul_container {
+  margin: 0 0%;
+  overflow: hidden;
+  margin-bottom: 72px;
+  margin-top: 40px;
+}
+
+.logo_image {
+  width: 100%;
+  filter: brightness(0) invert(1);
+}
+
+.logo_image_div {
+  width: max-content;
+}
+
+.main_div_for_videoPlay_Frist {
+  width: 58%;
+  max-height: 420px;
+  margin-left: auto;
+}
+
+.main_div_for_videoPlay_two {
+  width: 60%;
+  max-height: 390px;
+  margin-right: auto;
+  object-fit: cover;
+}
+
+.main_div_for_videoPlay_three {
+  width: 60%;
+  max-height: 390px;
+  object-fit: cover;
+}
+
+.main_div_for_blank_content {
+  width: 50%;
+}
+
+.main_for_Dark_Web {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 120px;
+}
+
+.main_for_Dark_Web_two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 120px;
+}
+
+.main_for_Dark_Web_twoQQ {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 120px;
+}
+
+.main_for_Cutting_div {
+  max-width: 601px;
+}
+
+.main_for_Cutting_div_four {
+  max-width: 601px;
+  margin-top: auto;
+}
+
+.main_for_automated_div {
+  max-width: 601px;
+  margin-right: 20px;
+}
+
+.main_for_automated_div_three {
+  max-width: 601px;
+  margin-right: 20px;
+  margin-bottom: auto;
+}
+
+.main_div_chooes_us {
+  font-family: "Raleway";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  color: var(--white);
+  align-items: center;
+  justify-content: center;
+  margin-top: 180px;
+  margin-bottom: 40px;
+}
+
+.main_for_acordiyan_manage {
+  display: flex;
+  gap: 80px;
+  width: 100%;
+}
+
+.maindiv_imagegroup {
+  max-width: 561px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+
+}
+
+.main_div_counting {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+  margin: 0 8%;
+  margin-top: 140px;
+  margin-bottom: 140px;
+  padding: 20px;
+}
+
+.div_for_number_content_main {
+  display: block;
+  align-items: center;
+  text-align: center;
+}
+
+.main_div_for_number {
+  font-family: "Raleway";
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 77.45px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  color: var(--white);
+  align-items: baseline;
+}
+
+.main_div_for_number_text {
+  font-family: "Raleway";
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38.73px;
+  color: var(--white);
+}
+
+.main_div_for_sub_title_number {
+  font-family: "Raleway";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  color: var(--discription);
+  text-align: center;
+}
+
+.main_div_foryour_risk {
+  font-family: "Raleway";
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 84px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--white);
+}
+
+.main_description_Footer {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.started_button_trial {
+  display: flex;
+  justify-content: center !important;
+  text-align: center !important;
+  margin: auto;
+}
+
+.main_div_choresh {
+  width: 2915px;
+  height: 2906px;
+  position: absolute;
+  top: -2%;
+  left: 0%;
+  transform: translate(-50%, -65%);
+  background: radial-gradient(circle, #0f7389cc 0%, #0C0C0C00, #0C0C0C00 100%);
+  z-index: 0;
+}
+
+.home_page_vertical_line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 0;
+}
+
+.main_video_div {
+  max-height: 420px;
+  width: 90%;
+  margin-left: auto;
+  object-fit: fill;
+  border-radius: 12px;
+}
+
+.logo_main_div {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin-left: auto;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.logo_top_div {
+  margin-top: 50px;
+  display: grid;
+  gap: 24px;
+}
+
+.logo_1 {
+  width: fit-content;
+  object-fit: contain;
+}
+
+@property --angle {
+  syntax: '<angle>';
+  initial-value: 90deg;
+  inherits: true;
+}
+
+@keyframes borderRotate {
+  100% {
+    --angle: 420deg;
+  }
+}
+
+.main_div_for_repid {
+  background-color: #000000;
+  border-radius: 24px;
+  padding: 48px;
+  max-width: 553px;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.logo_main_container {
+  margin-top: 144px;
+}
+
+.main_div_for_repid::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  padding: 4.5px;
+  border-radius: 24px;
+  background: conic-gradient(from var(--angle),
+      rgba(247, 99, 36, 0.1),
+      #f76324 0.1turn,
+      #f76324 0.15turn,
+      rgba(247, 99, 36, 0.1) 0.25turn);
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask-composite: exclude;
+  -webkit-mask-composite: destination-out;
+  z-index: -1;
+  animation: borderRotate 2500ms linear infinite forwards;
+}
+
+.main_div_for_repid::after {
+  content: '';
+  position: absolute;
+  inset: 0px;
+  border-radius: 24px;
+  z-index: 0;
+}
+
+.risk_div {
+  padding-top: 144px;
+  background-image: url('../Assets/images/grid.png');
+  margin: 0;
+  padding-bottom: 144px;
+}
+
+
+
+
+
+@media (max-width: 1700px) {
+  .main_div_for_videoPlay_Frist {
+    margin-left: 40px;
+  }
+
+}
+
+@media (max-width: 1500px) {
+  .main_for_acordiyan_manage {
+    gap: 40px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .main_div_choresh {
+    width: 1250px;
+    height: 1250px;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -70%);
+  }
+
+  .main_for_real_timeComponent {
+    /* margin-top: 180px; */
+    margin-top: 0;
+    padding-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+
+
+  .main_for_real_timeComponent:nth-child(even) {
+    flex-direction: column;
+  }
+
+
+  .main_for_relatedTime_div {
+    max-width: 100%;
+  }
+
+  .main_div_for_repid {
+    max-width: 100%;
+    margin-top: 20px;
+  }
+
+  .main_div_for_videoPlay_Frist {
+    width: 100%;
+    margin-bottom: 20px;
+    margin-left: 0;
+    margin-top: 30px;
+    max-height: 100%;
+  }
+
+  .started_button {
+    margin-bottom: 40px;
+
+  }
+
+  .main_div_for_videoPlay_one {
+    width: 100%;
+    margin-bottom: 0px;
+    padding-top: 32px;
+    padding-bottom: 72px;
+
+  }
+
+  .main_for_Dark_Web_two {
+    margin-top: 60px;
+    flex-direction: column-reverse;
+  }
+
+  .main_for_Dark_Web_twoQQ {
+    display: block;
+    margin-top: 60px;
+  }
+
+  .main_div_for_videoPlay_two {
+    width: 100%;
+  }
+
+  .main_for_Cutting_div {
+    max-width: 100%;
+    margin-top: 20px;
+  }
+
+  .main_for_automated_div_three {
+    max-width: 100%;
+  }
+
+  .main_div_for_videoPlay_three {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .main_for_Dark_Web {
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 60px;
+  }
+
+  .main_for_Cutting_div_four {
+    max-width: 100%;
+  }
+
+  .main_for_acordiyan_manage {
+    display: block;
+    margin-bottom: 72px;
+  }
+
+  .maindiv_imagegroup {
+    width: 100%;
+    margin: 30px auto auto auto;
+  }
+
+  .main_for_real_timeComponent_first1 {
+    /* display: block; */
+    flex-direction: column;
+    margin-bottom: 160px;
+
+  }
+
+  .main_video_div {
+    margin: auto;
+  }
+}
+
+@media (max-width: 992px) {
+
+
+  .main_for_real_timeComponent_first1 {
+    margin-bottom: 90px;
+  }
+
+  .main_for_real_timeComponent:nth-child(0) {
+    margin-top: 140px;
+  }
+
+  .started_button {
+    margin-top: 24px;
+  }
+
+  .main_title_external,
+  .main_title_external_main {
+    width: 100%;
+  }
+
+
+}
+
+@media (max-width: 767px) {
+  .logo_1 {
+    width: 25%;
+    object-fit: contain;
+  }
+
+  .main_div_for_videoPlay_Frist {
+    margin: 0;
+    max-height: 100% !important;
+  }
+
+  .main_home_hero_content_res {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .main_div_for_chooes_us {
+    margin: 0 5%;
+  }
+
+  .logo_main_container {
+    margin-top: 0;
+  }
+
+  .main_title_red {
+    font-size: 22px;
+    line-height: 1;
+  }
+
+  .main_nextgen,
+  .main_nextgen_heading,
+  .main_nextgen_sub {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 0px;
+  }
+
+  .main_title_external,
+  .main_title_external_main {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .learn_more_button {
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 8px;
+    margin-bottom: 32px;
+  }
+
+  .main_div_rapid_assessment {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .main_div_for_repid {
+    padding: 16px;
+    margin-bottom: 72px;
+  }
+
+  .main_description_data {
+    font-size: 14px !important;
+    line-height: 20px !important;
+    margin-top: 8px;
+    margin-bottom: 0px !important;
+  }
+
+  .main_div_for_Right_button {
+    width: 38px;
+    height: 38px;
+  }
+
+  .main_div_for_number {
+    font-size: 28px;
+    line-height: 42px;
+    margin-bottom: 8px;
+  }
+
+  .main_div_for_number_text {
+    font-size: 20px;
+  }
+
+  .main_div_for_sub_title_number {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .main_description_Footer {
+    margin-bottom: 12px;
+  }
+
+  .main_div_counting {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 16px;
+    margin-bottom: 72px;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .main_div_foryour_risk {
+    font-size: 30px;
+    line-height: 45px;
+  }
+
+  .main_div_chooes_us {
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+  }
+
+  .main_video_div {
+    width: 100%;
+  }
+
+  .logo_main_div {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-left: 0;
+    gap: 20px;
+
+  }
+
+  .logo_top_div {
+    margin: 72px 0;
+    display: grid;
+    gap: 12px;
+  }
+
+
+
+
+  .main_for_real_timeComponent_first1 {
+    margin-bottom: 0px;
+    margin: 0 5%;
+  }
+
+  .main_div_for_Home_page {
+    margin-top: 0;
+  }
+
+
+}
+
+@media (max-width: 500px) {
+  .main_div_for_Home_page {
+    margin-bottom: -20px;
+  }
+
+  .risk_div {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 72px;
+    padding-bottom: 72px;
+  }
+
+
+  .main_for_real_timeComponent_first1 {
+    margin-bottom: 0px;
+  }
+
+  .main_for_real_timeComponent {
+    padding-bottom: 0px;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+
+
+  .started_button {
+    margin-bottom: 0px;
+    margin-top: 16px;
+  }
+
+
+  .main_for_Dark_Web {
+    margin-top: 60px;
+  }
+
+  .main_for_Cutting_div_four {
+    margin-top: 30px;
+  }
+
+  .main_for_Cutting_div {
+    margin-top: 0px;
+  }
+
+  .main_for_empower {
+    line-height: 20px;
+    font-size: 14px;
+    margin-bottom: 0px;
+  }
+
+  .main_div_for_Right_button {
+    margin-top: 12px;
+  }
+
+  .main_for_Dark_Web_two {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .main_for_Dark_Web_twoQQ {
+    margin-top: 60px;
+  }
+
+  .home_page_vertical_line {
+    padding: 12px 0;
+  }
+
+  .main_div_foryour_risk {
+    font-size: 26px;
+
+
+  }
+}
+
+
+@media (max-width: 1650px) {
+  .main_div_for_videoPlay_Frist {
+    width: 100%;
+
+  }
+
+  .main_video_div {
+    width: 100%;
+  }
+
+  .main_for_relatedTime_div {
+    width: 45%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .main_div_for_videoPlay_Frist {
+    width: 100%;
+  }
+
+  .main_video_div {
+    width: 100%;
+  }
+
+  .main_for_relatedTime_div {
+    width: 100%;
+  }
+}

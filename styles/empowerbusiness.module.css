@@ -1,0 +1,206 @@
+.main_for_Dark_Web_two {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8%;
+  margin-top: -50px;
+  background-color: #FFF7F4;
+  gap: 140px;
+
+}
+
+.main_div_for_Home_page {
+  margin: 0 8%;
+}
+
+.main_div_for_videoPlay_two {
+  width: 599px;
+  height: 476px;
+
+
+}
+
+.main_for_Cutting_div {
+  max-width: 900px;
+}
+
+.main_for_Cutting_div_four {
+  max-width: 601px;
+  margin-top: auto;
+}
+
+.main_title_external {
+  font-family: "Raleway";
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 50px;
+  color: var(--dark);
+}
+
+.main_description_data {
+  margin-top: 24px;
+}
+
+.main_div_choresh {
+  width: 398px;
+  height: 398px;
+  border-radius: 27px;
+  background: linear-gradient(0deg,
+      rgba(246, 99, 43, 0.08),
+      rgba(246, 99, 43, 0.08)),
+    linear-gradient(0deg, #ffffff, #ffffff);
+  transform: rotate(45deg);
+  position: absolute;
+  z-index: -1;
+  left: 23px;
+  top: 10px;
+}
+
+.main_div_title_description {
+  margin-top: 72px;
+}
+
+.button_text_div {
+  margin-top: 42px;
+}
+
+.circle_design {
+  position: absolute;
+  width: 500px;
+  height: 300px;
+  bottom: 0;
+  right: 0px;
+  object-fit: contain;
+}
+
+.circle_MainDivContanir {
+  margin-bottom: -130px;
+  width: 90%;
+  margin-left: 8%;
+}
+
+.divforExperienceunparalleled {
+  margin-top: 6rem !important;
+  position: relative;
+  z-index: 999;
+}
+
+.main_dv_for_experience {
+  padding-top: 72px;
+  padding-bottom: 72px;
+}
+
+@media (max-width: 1700px) {
+  .main_for_Dark_Web_two {
+    margin-top: -60px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .main_for_Dark_Web_two {
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main_div_choresh {
+    width: 330px;
+    height: 330px;
+  }
+
+  .main_div_for_videoPlay_two {
+    width: 90%;
+  }
+
+  .main_for_Cutting_div {
+    margin-left: 10%;
+    margin-top: 40px;
+  }
+
+  .main_div_title_description {
+    margin-top: 60px;
+  }
+
+  .circle_design {
+    display: none;
+  }
+}
+
+@media (max-width: 992px) {
+  .main_for_Cutting_div {
+    margin-left: 4%;
+  }
+}
+
+@media (max-width: 768px) {
+  .main_div_choresh {
+    display: none;
+  }
+  .circle_MainDivContanir {
+    margin-bottom: -30px;
+  }
+
+
+  .main_div_for_videoPlay_two {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    height: auto;
+    margin-top: 40px;
+  }
+
+  .main_title_external {
+    font-size: 28px;
+  }
+
+  .main_div_for_Home_page {
+    margin: 0 1%;
+  }
+
+  .main_dv_for_experience {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .button_text_div {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 500px) {
+  .main_for_Cutting_div {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  .main_title_external {
+    font-size: 24px;
+    line-height: 35px;
+  }
+.ButtonStrated{
+  margin-top: 20px;
+}
+
+  .divforExperienceunparalleled {
+    width: 100% !important;
+    margin-left: 0px !important;
+    margin-top: 60px !important;
+  }
+
+  .main_description_data {
+    margin: 10px 0px 0px 0px !important;
+  }
+
+
+  .comprehensive_assessments {
+    margin-bottom: 0px !important;
+  }
+
+  .experient_text,
+  .expert_team {
+    font-size: 22px !important;
+    line-height: 25px !important;
+  }
+}

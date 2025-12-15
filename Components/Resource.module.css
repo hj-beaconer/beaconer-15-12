@@ -1,0 +1,51 @@
+.flexContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px; /* 0.5rem = 8px */
+    width: 100%;
+}
+
+.flexBox {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px;
+    width: fit-content;
+    min-width: 150px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.flexBox:hover {
+    background-color: #FFF8F5;
+}
+
+.path_Div{
+    background-color: #FFF8F5;
+    color: #EA5656;
+}
+.icon_container {
+    height: 2rem;  
+    width: 2rem;   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+@media (min-width: 1280px) {
+    .flexBox {
+        width: 100%;
+        min-width: 214px;
+    }
+
+    .flexContainer {
+        flex-direction: column;
+        width: max-content;
+    }
+}
+
+@media (min-width: 768px) { 
+    .flexContainer {
+        gap: 24px; 
+    }
+}

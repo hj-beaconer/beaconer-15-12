@@ -1,0 +1,28 @@
+User-agent: *
+Allow: /
+
+# Disallow admin and private areas
+Disallow: /api/
+Disallow: /admin/
+Disallow: /_next/
+Disallow: /private/
+
+# Allow important pages
+Allow: /home
+Allow: /about
+Allow: /contact
+Allow: /resources/
+Allow: /healthcare-risk-management
+Allow: /financial-services-risk-management
+Allow: /information-technology-risk-management
+Allow: /law-firm-risk-management
+Allow: /manufacturing-risk-management
+Allow: /retail-risk-management
+
+# Sitemap locations
+Sitemap: https://beaconer.io/sitemap.xml
+Sitemap: https://beaconer.io/sitemap-blog.xml
+Sitemap: https://beaconer.io/sitemap-index.xml
+
+# Crawl delay (optional - be respectful to search engines)
+Crawl-delay: 1
