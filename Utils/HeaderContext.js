@@ -25,7 +25,7 @@ export const HeaderProvider = ({ children }) => {
           "Resources",
           "Industries",
           "About",
-          "Beaconer Academy",
+          "Training",
           "Contact",
         ];
         const sortedData = [...data].sort((a, b) => {
@@ -37,11 +37,11 @@ export const HeaderProvider = ({ children }) => {
         });
 
         const trainingExists = sortedData.some(
-          (d) => d.Tab_Name && d.Tab_Name.trim().toLowerCase() === "Beaconer Academy"
+          (d) => d.Tab_Name && d.Tab_Name.trim().toLowerCase() === "training"
         );
 
         const trainingMenu = {
-          Tab_Name: "Beaconer Academy",
+          Tab_Name: "Training",
           Url: "/training",
           Svg: null,
           Header_Dropdown: [
