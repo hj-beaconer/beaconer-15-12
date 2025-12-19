@@ -47,7 +47,7 @@ export default function training() {
 
   const staticCourses = [
     {
-      title: "Third-Party Risk Management testing nn ",
+      title: "Third-Party Risk Management",
       description:
         "Master vendor risk assessment, compliance frameworks, and risk mitigation strategies from the ground up.",
       link: "/third-party-risk",
