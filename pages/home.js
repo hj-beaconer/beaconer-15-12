@@ -100,7 +100,7 @@ const Home = ({ Data, fullUrl, setIsPageLoaded }) => {
                       homeData
                         ? homeData[0]?.Hero_Section.Hero_Section_Description[0]
                             ?.children[0]?.text
-                        : "Beaconer automates your entire Third-Party Risk journey, from onboarding and assessments to real-time monitoring and remediation, ensuring complete and seamless protection fix."
+                        : "Beaconer automates your entire Third-Party Risk journey, from onboarding and assessments to real-time monitoring and remediation, ensuring complete and seamless protection."
                     }
                   />
                   <Button
