@@ -69,6 +69,8 @@ import interactivelearning from "../Assets/images/interactive-learning.jpg";
 import handsonlab from "../Assets/images/hands-on-lab.jpg";
 import interviewprep from "../Assets/images/interview-prep.jpg";
 import hero_woman from "../Assets/images/hero_woman.png";
+import beaconer_logo_dark from "../Assets/images/beaconer_logo_dark.png";
+import stripe_logo from "../Assets/images/stripe_logo.png";
 
 
 export { bg_rapid };
@@ -142,4 +144,6 @@ export { interactivelearning };
 export { handsonlab };
 export { interviewprep };
 export { hero_woman };
+export {beaconer_logo_dark};
+export {stripe_logo};
 

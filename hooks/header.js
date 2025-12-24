@@ -6,6 +6,9 @@ const useHeader = () => {
     const response = await axios.get(
       `${process.env.NEXT_PUBLIC_BACKEND_URL}${HeaderQuary}`
     );
+    console.log("BACKEND:", process.env.NEXT_PUBLIC_BACKEND_URL);
+console.log("FRONTEND:", process.env.NEXT_PUBLIC_FRONTEND_URL);
+
     return response;
   };
 

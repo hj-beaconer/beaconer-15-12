@@ -30,9 +30,16 @@ import {
 
 import RegistrationCTA from "../Components/training/RegistrationCTA";
 import Footer from "../Components/Footer";
+import EnrollForm from "../Components/EnrollForm";
+import { useEffect } from "react";
+import { useRouter } from "next/router";
+
 
 export default function training() {
   const [isConsultationOpen, setIsConsultationOpen] = useState(false);
+  const [isEnrollOpen, setIsEnrollOpen] = useState(false);
+
+const router = useRouter();
 
   const features = [
     { icon: Users, title: "Built for Complete Beginners" },
@@ -88,6 +95,9 @@ export default function training() {
     },
   ];
   console.log(staticCourses);
+useEffect(() => {
+  document.body.style.overflow = isEnrollOpen ? "hidden" : "auto";
+}, [isEnrollOpen]);
 
   return (
     <div className="bg-white relative z-1 training-page">
@@ -127,12 +137,20 @@ export default function training() {
                 in a Information Security roles from day one.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <button
+                {/* <button
                   size="lg"
                   className="inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 rounded-md bg-[#f76324] hover:bg-orange-700 text-white text-base px-6 py-3 h-auto w-full sm:w-auto"
                 >
                   Enroll Now <ArrowRight className="ml-2 h-5 w-5" />
-                </button>
+                </button> */}
+ <button
+  size="lg"
+  className="inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 rounded-md bg-[#f76324] hover:bg-orange-700 text-white text-base px-6 py-3 h-auto w-full sm:w-auto"
+  onClick={() => router.push("/register")}
+>
+  Enroll Now <ArrowRight className="ml-2 h-5 w-5" />
+</button>
+
                 <button
                   size="lg"
                   variant="outline"
@@ -578,6 +596,34 @@ export default function training() {
 
       {/* RegistrationCTA Section */}
       <RegistrationCTA />
+{isEnrollOpen && (
+  <div className="fixed inset-0 z-50 bg-black/60 flex items-center justify-center px-4">
+    
+    <div className="relative w-full max-w-2xl bg-white rounded-xl shadow-lg 
+                    max-h-[90vh] flex flex-col">
+
+      {/* Header */}
+      <div className="flex justify-between items-center px-6 py-4 border-b">
+        <h3 className="text-lg font-semibold text-gray-900">
+          Course Registration
+        </h3>
+        <button
+          onClick={() => setIsEnrollOpen(false)}
+          className="text-gray-500 hover:text-black text-xl"
+        >
+          ✕
+        </button>
+      </div>
+
+      {/* Scrollable Content */}
+      <div className="overflow-y-auto px-6 py-4">
+        <EnrollForm />
+      </div>
+
+    </div>
+  </div>
+)}
+
 
       <Footer />
     </div>

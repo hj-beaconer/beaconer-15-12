@@ -95,6 +95,7 @@ export default function MyApp({ Component, pageProps }) {
       "/compliance",
       "/soc",
       "/cloud-security",
+      "/register",
     ];
 
     const isAllowed = allowedRoutes.some((route) => pathName.startsWith(route));
